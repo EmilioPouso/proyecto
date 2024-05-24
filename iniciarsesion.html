@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iniciarsesion.css">
+    <title>Document</title>
+</head>
+<body>
+   
+<form action="login.php" method="post" target="">
+    <span class="title">Iniciar sesión</span>
+    
+                <label>Nombre de Usuario: <input type="text" name="email"  placeholder="Introduzca su Nombre" required></label>
+                <label>Contraseña: <input type="password" name="contrasena" minlength="8" maxlength="12" pattern="^(?=.*[A-Z])(?=.*\d).+$" placeholder="Introduzca su contraseña" required></label>
+                <div class="botones">
+                    <input class="btnn" type="submit" value="Iniciar Sesión" name="enviar">
+                    <a class="cancelar" href="cerrarsesion.php" style='text-decoration:none;'>
+                    </a>
+                </div>          
+            </form>
+</body>
+</html>

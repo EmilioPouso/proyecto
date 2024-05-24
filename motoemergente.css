@@ -1,0 +1,514 @@
+
+
+ /* ..............................................................................................................................  */
+.simple_gallery {
+  width: 180%;
+  max-width: 1100px;
+  margin: 80px auto 0;
+  padding: 0;
+}
+.simple_gallery ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.simple_gallery ul li {
+  display: block;
+  float: left;
+  width: calc(33.33% - 20px);
+  margin: 0;
+  padding: 10px;
+}
+.simple_gallery ul li img {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: .5s;
+  filter: grayscale(100%);
+}
+.simple_gallery ul li img:hover {
+  filter: grayscale(0);
+}
+#overflow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.7);
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 10;
+    display: none;
+}
+ 
+#overflow img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    max-width: 1100px;
+}
+#overflow .fa {
+    font-size: 40px;
+    color: #fff;
+    margin: 30px 30px 0 0;
+    cursor: pointer;
+}
+.clear {
+  clear:both;
+}
+/*END CSS Gallery*/
+ 
+body{
+  background: #1d1e22;
+}
+.copy, h1{
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+}
+.copy h1, h1, .copy a:link, .copy a:visited{
+  color: #fff;
+}
+.copy p {
+  color: #ccc;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.ventana{
+  background-color: #51a078;
+  width: 820px;
+  height:550px;
+  padding: 9px 9px 29px 12px;
+  margin: 24% auto;
+  position: relative;
+  bottom: 91px;
+  padding: 3em;
+ 
+ 
+ 
+}
+ 
+ 
+.modal{
+  background-color: rgba(0, 0, 0, .8);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0;
+  bottom:0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s;
+  z-index: 9;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+ 
+#IrVentanaFlotanteHONDA-XADV:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#IrVentanaFlotanteHONDA-AFRICA-TWIN:target{
+  opacity:1;
+  pointer-events:auto;
+}
+ 
+#IrVentanaFlotanteHONDA-CBR-650-R:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteHONDA-SH:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteHONDA-CB500-X:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteHONDA-FIREBLADE-1000-RR:target{
+opacity:1;
+pointer-events:auto;
+}
+
+
+#IrVentanaFlotanteYAMAHA-XSR-900-F:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#IrVentanaFlotanteYAMAHA-TENERE-700:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#IrVentanaFlotanteYAMAHA-YZF-R6:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteYAMAHA-MT-07:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteYAMAHA-TRACER-900:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteYAMAHA-YZF-R1:target{
+opacity:1;
+pointer-events:auto;
+}
+
+ 
+#IrVentanaFlotanteKAWASAKI-ER6-N:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#IrVentanaFlotanteKAWASAKI-VULCAN-S:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#IrVentanaFlotanteKAWASAKI-NINJA-650-R:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteKAWASAKI-Z900:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteKAWASAKI-VERSYS-650:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteKAWASAKI-NINJA-H2-R:target{
+opacity:1;
+pointer-events:auto;
+}
+
+
+
+ 
+#IrVentanaFlotanteKTM-SUPER-DUKE-1290:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#IrVentanaFlotanteKTM-250-SX:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#IrVentanaFlotanteKTM-SMC-690:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteKTM-DUKE-390:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteKTM-450-EXC-F:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteKTM-790-ADVENTURE:target{
+opacity:1;
+pointer-events:auto;
+}
+
+
+ 
+#IrVentanaFlotanteSUZUKI-BOULEVARD:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#IrVentanaFlotanteSUZUKI-V-STROM-650:target{
+  opacity:1;
+  pointer-events:auto;
+}
+ 
+#IrVentanaFlotanteSUZUKI-HAYABUSA:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteSUZUKI-BURGMAN-400:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteSUZUKI-GSX-S-1000:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteSUZUKI-GSX-R-1000:target{
+opacity:1;
+pointer-events:auto;
+}
+ 
+
+
+
+#IrVentanaFlotanteDUCATI-SCRAMBLER:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#IrVentanaFlotanteDUCATI-DIAVEL:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#IrVentanaFlotanteDUCATI-PANIGALE:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteDUCATI-MONSTER:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteDUCATI-HYPERMOTARD-950:target{
+opacity:1;
+pointer-events:auto;
+}
+#IrVentanaFlotanteDUCATI-SUPERLEGGERA:target{
+opacity:1;
+pointer-events:auto;
+}
+ 
+ 
+.ventana img{
+  width: 453px;
+  height: 237px;
+  object-fit: cover;
+  display: block;
+  margin: 1em;
+ 
+}
+ 
+ 
+.parrafoprincipal{
+  margin-left: -48px;
+  margin-right: 0px;
+  margin-top: -23px;
+}
+.leermas{
+  margin-left: -48px;
+}
+.cerrar-ventana{
+  text-decoration: none;
+  position:absolute;
+  right:1em;
+  top:1em;
+  font-size:1.5em;
+}
+div.scroll{
+  overflow-y: scroll;
+  height: 100%;
+ 
+}
+h2{
+  text-align: center;
+  font-size: 3em;
+}
+ 
+ /* ..............................................................................................................................  */
+ .fondo-honda {
+  background-image: url('https://i.ibb.co/YRSdpVX/FONDO-HONDA.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+.button2{
+ list-style-type: none;
+}
+/* cajamotoshonda--------------------------------------------------------- */
+.cajamotoshonda {
+  --neon-border-color: rgb(151, 0, 0); /* Define el color neón para el borde */
+  color: white;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3rem rgb(151, 0, 0);
+  animation: flickersuzuki 1.5s infinite alternate;
+  border-radius: 55px;
+}
+
+@keyframes flickerhonda{
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      box-shadow:
+          0 0 .2rem rgb(255, 177, 177),
+          inset 0 0 .2rem rgb(255, 177, 177),
+          0 0 2rem var(--neon-border-color),
+          inset 0 0 1rem var(--neon-border-color),
+          0 0 4rem var(--neon-border-color),
+          inset 0 0 2rem var(--neon-border-color);        
+  }
+  20%, 24%, 55% {        
+      text-shadow: none;
+      box-shadow: none;
+  }    
+}
+
+/* cajamotosyamaha--------------------------------------------------------- */
+.cajamotosyamaha {
+  --neon-border-color: rgb(0, 28, 151); /* Define el color neón para el borde */
+  color: white;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3rem rgb(0, 28, 151);
+  animation: flickersuzuki 1.5s infinite alternate;
+  border-radius: 55px;
+}
+
+@keyframes flickeryamaha{
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      box-shadow:
+          0 0 .2rem rgb(255, 177, 177),
+          inset 0 0 .2rem rgb(255, 177, 177),
+          0 0 2rem var(--neon-border-color),
+          inset 0 0 1rem var(--neon-border-color),
+          0 0 4rem var(--neon-border-color),
+          inset 0 0 2rem var(--neon-border-color);        
+  }
+  20%, 24%, 55% {        
+      text-shadow: none;
+      box-shadow: none;
+  }    
+}
+/* cajamotoskawasaki--------------------------------------------------------- */
+.cajamotoskawasaki {
+  --neon-border-color: rgb(73, 151, 0); /* Define el color neón para el borde */
+  color: white;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3rem rgb(73, 151, 0);
+  animation: flickersuzuki 1.5s infinite alternate;
+  border-radius: 55px;
+}
+
+@keyframes flickerkawasaki{
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      box-shadow:
+          0 0 .2rem rgb(255, 177, 177),
+          inset 0 0 .2rem rgb(255, 177, 177),
+          0 0 2rem var(--neon-border-color),
+          inset 0 0 1rem var(--neon-border-color),
+          0 0 4rem var(--neon-border-color),
+          inset 0 0 2rem var(--neon-border-color);        
+  }
+  20%, 24%, 55% {        
+      text-shadow: none;
+      box-shadow: none;
+  }    
+}
+  /* cajamotosktm---------------------------------------------------------- */
+  .cajamotosktm {
+    --neon-border-color: rgb(255, 115, 0); /* Define el color neón para el borde */
+    color: white;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3rem  rgb(255, 115, 0);
+    animation: flickersuzuki 1.5s infinite alternate;
+    border-radius: 55px;
+  }
+  
+  @keyframes flickerktm {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        box-shadow:
+            0 0 .2rem rgb(255, 177, 177),
+            inset 0 0 .2rem rgb(255, 177, 177),
+            0 0 2rem var(--neon-border-color),
+            inset 0 0 1rem var(--neon-border-color),
+            0 0 4rem var(--neon-border-color),
+            inset 0 0 2rem var(--neon-border-color);        
+    }
+    20%, 24%, 55% {        
+        text-shadow: none;
+        box-shadow: none;
+    }    
+  }
+
+/* cajamotossuzuki---------------------------------------------------------- */
+.cajamotossuzuki {
+  --neon-border-color: rgb(0, 204, 255); /* Define el color neón para el borde */
+  color: white;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3rem rgb(0, 204, 255);
+  animation: flickersuzuki 1.5s infinite alternate;
+  border-radius: 55px;
+}
+
+@keyframes flickersuzuki {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      box-shadow:
+          0 0 .2rem rgb(255, 177, 177),
+          inset 0 0 .2rem rgb(255, 177, 177),
+          0 0 2rem var(--neon-border-color),
+          inset 0 0 1rem var(--neon-border-color),
+          0 0 4rem var(--neon-border-color),
+          inset 0 0 2rem var(--neon-border-color);        
+  }
+  20%, 24%, 55% {        
+      text-shadow: none;
+      box-shadow: none;
+  }    
+}
+/* cajamotosducati---------------------------------------------------------- */
+ 
+.cajamotosducati {
+  --neon-border-color: rgb(255, 0, 0); /* Define el color neón para el borde */
+  color: white;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3rem  rgb(255, 0, 0);
+  animation: flickersuzuki 1.5s infinite alternate;
+  border-radius: 55px;
+}
+
+@keyframes flickerducati {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      box-shadow:
+          0 0 .2rem rgb(255, 177, 177),
+          inset 0 0 .2rem rgb(255, 177, 177),
+          0 0 2rem var(--neon-border-color),
+          inset 0 0 1rem var(--neon-border-color),
+          0 0 4rem var(--neon-border-color),
+          inset 0 0 2rem var(--neon-border-color);        
+  }
+  20%, 24%, 55% {        
+      text-shadow: none;
+      box-shadow: none;
+  }    
+}

@@ -1,0 +1,83 @@
+/* Centra el formulario en la pantalla */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Color de fondo para hacer que el formulario resalte */
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    max-width: 400px; /* Aumenté el max-width para que se parezca más al ejemplo */
+    width: 100%;
+    background-color: #fff;
+    padding: 20px; /* Aumenté el padding para más espacio alrededor del formulario */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Añadí un poco más de sombra para mejor visibilidad */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1a202c;
+  }
+  
+  label {
+    color: #1a202c;
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
+  input {
+    padding: 10px;
+    padding-left: 15px; /* Padding adicional para que el texto no se pegue al borde izquierdo */
+    width: 94%;
+    font-size: 1rem;
+    color: #4a5568;
+    outline: none;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #cbd5e0;
+  }
+  
+  
+  input:invalid {
+    border: 1px solid rgba(14, 14, 14, 0.205);
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center; /* Center the button */
+    align-items: center;
+  }
+  
+  .btnn {
+    background-color: #1a202c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem; /* Reduced the font-size for better fit */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+  }
+  
+  .btnn:hover {
+    background-color: #2d3748;
+  }
+  
+  .cancelar {
+    display: none; /* Hide the cancel link if it's not needed */
+  }
+  
